@@ -78,7 +78,7 @@
                                 <li><a href="{{ route('services') }}">SERVICES </a></li>
                                 <li><a href="{{ route('shop') }}">Shop </a></li>
                                 <li><a href="{{ route('about') }}">ABOUT </a></li>
-                                <li><a href="contact.html">CONTACT </a> </li>
+                                <li><a href="{{ route('contact') }}">CONTACT </a> </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="login.html"> Login</a></li>
