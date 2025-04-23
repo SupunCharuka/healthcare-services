@@ -10,4 +10,9 @@ class FrontendController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function services()
+    {
+        return view('frontend.services');
+    }
 }

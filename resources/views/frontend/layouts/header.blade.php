@@ -74,8 +74,8 @@
                         </div>
                         <div id="navbar-collapse-1" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="home.html">Home </a></li>
-                                <li><a href="services.html">SERVICES </a></li>
+                                <li><a href="{{ route('/') }}">Home </a></li>
+                                <li><a href="{{ route('services') }}">SERVICES </a></li>
                                 <li><a href="shop-main.html">Shop </a></li>
                                 <li><a href="home.html">ABOUT </a></li>
                                 <li><a href="contact.html">CONTACT </a> </li>
