@@ -15,4 +15,9 @@ class FrontendController extends Controller
     {
         return view('frontend.services');
     }
+
+    public function shop()
+    {
+        return view('frontend.shop');
+    }
 }

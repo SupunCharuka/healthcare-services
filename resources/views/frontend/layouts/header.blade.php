@@ -76,7 +76,7 @@
                             <ul class="nav navbar-nav">
                                 <li><a href="{{ route('/') }}">Home </a></li>
                                 <li><a href="{{ route('services') }}">SERVICES </a></li>
-                                <li><a href="shop-main.html">Shop </a></li>
+                                <li><a href="{{ route('shop') }}">Shop </a></li>
                                 <li><a href="home.html">ABOUT </a></li>
                                 <li><a href="contact.html">CONTACT </a> </li>
                             </ul>

@@ -7,7 +7,7 @@
   <script src="{{ asset('assets/frontend/js/waypoints.min.js') }}"></script>
   <script src="{{ asset('assets/frontend/plugins/bxslider/jquery.bxslider.min.js') }}"></script>
   <script src="{{ asset('assets/frontend/plugins/prettyphoto/js/jquery.prettyPhoto.js') }}"></script>
-  <script src="../../ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="{{ asset('assets/frontend/ajax/libs/jquery-easing/1.3/jquery.easing.min.js') }}"></script>
   <script src="{{ asset('assets/frontend/plugins/datetimepicker/jquery.datetimepicker.js') }}"></script>
   <script src="{{ asset('assets/frontend/plugins/jelect/jquery.jelect.js') }}"></script>
   <script src="{{ asset('assets/frontend/plugins/nouislider/jquery.nouislider.all.min.js') }}"></script>
@@ -21,3 +21,6 @@
   <script src="{{ asset('assets/frontend/js/cssua.min.js') }}"></script>
   <script src="{{ asset('assets/frontend/js/wow.min.js') }}"></script>
   <script src="{{ asset('assets/frontend/js/custom.js') }}"></script>
+
+  @yield('scripts')
+  @stack('scripts')

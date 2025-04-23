@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('', [FrontendController::class, 'index'])->name('/');
 Route::get('services', [FrontendController::class, 'services'])->name('services');
+Route::get('shop', [FrontendController::class, 'shop'])->name('shop');
 
 Route::middleware([
     'auth:sanctum',

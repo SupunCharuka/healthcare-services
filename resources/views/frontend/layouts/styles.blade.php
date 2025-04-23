@@ -6,3 +6,5 @@
 <script src="{{ asset('assets/frontend/js/jquery-ui.min.js') }}"></script>
 <script src="{{ asset('assets/frontend/js/bootstrap-3.1.1.min.js') }}"></script>
 <script src="{{ asset('assets/frontend/js/modernizr.custom.js') }}"></script>
+
+@yield('styles')

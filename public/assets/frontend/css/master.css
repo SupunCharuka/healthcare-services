@@ -13,7 +13,7 @@ Primary use:	Health
 
 
 /* FONTS*/
-@import url(../../../css);
+@import url(../font-css/css);
 @import url('../fonts/simple/simple-line-icons.css');
 @import url('../fonts/font-awesome/css/font-awesome.min.css');
 @import url('../fonts/elegant/style.css');
