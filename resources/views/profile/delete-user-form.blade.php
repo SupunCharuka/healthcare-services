@@ -1,15 +1,13 @@
 <x-action-section>
-    <x-slot name="title">
-        {{ __('Delete Account') }}
-    </x-slot>
-
-    <x-slot name="description">
-        {{ __('Permanently delete your account.') }}
-    </x-slot>
+   
 
     <x-slot name="content">
-        <div class="max-w-xl text-sm text-gray-600">
-            {{ __('Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.') }}
+        <div class="card-header bg-white mb-3 p-0">
+            <h5>Delete Account</h5>
+            <p>Permanently delete your account.</p>
+        </div>
+        <div class="text-sm text-gray-600">
+            {{ __('Deleting your account is permanent. When You delete your account, you will not be able to retrieve the content or information. Your Services, Inquiries, Invoices will also be removed or disabled permanently.') }}
         </div>
 
         <div class="mt-5">
@@ -19,7 +17,7 @@
         </div>
 
         <!-- Delete User Confirmation Modal -->
-        <x-dialog-modal wire:model.live="confirmingUserDeletion">
+        <x-dialog-modal wire:model="confirmingUserDeletion">
             <x-slot name="title">
                 {{ __('Delete Account') }}
             </x-slot>
@@ -32,7 +30,7 @@
                                 autocomplete="current-password"
                                 placeholder="{{ __('Password') }}"
                                 x-ref="password"
-                                wire:model="password"
+                                wire:model.defer="password"
                                 wire:keydown.enter="deleteUser" />
 
                     <x-input-error for="password" class="mt-2" />
@@ -44,7 +42,7 @@
                     {{ __('Cancel') }}
                 </x-secondary-button>
 
-                <x-danger-button class="ms-3" wire:click="deleteUser" wire:loading.attr="disabled">
+                <x-danger-button class="ml-3" wire:click="deleteUser" wire:loading.attr="disabled">
                     {{ __('Delete Account') }}
                 </x-danger-button>
             </x-slot>

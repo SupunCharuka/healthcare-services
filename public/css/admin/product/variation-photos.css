@@ -1,0 +1,381 @@
+.parentWrap {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin: 0 auto;
+}
+.mainWrap {
+    position: relative;
+    text-align: left;
+    max-width: 746px;
+    outline: none;
+}
+.mainWrap > #upl-wrap {
+    padding: 0;
+    overflow-x: hidden;
+}
+.actBar {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+@media (min-width: 1200px) {
+    .row-fluid {
+        width: 100%;
+        *zoom: 1;
+    }
+}
+.row-fluid {
+    width: 100%;
+    *zoom: 1;
+}
+#tm-topMsg .msg {
+    padding-bottom: 10px;
+}
+#tm-topMsg .msg {
+    display: none;
+    width: 100%;
+}
+#tm-topMsg .slotsRemaining {
+    font-weight: bold;
+}
+.actBar.top .msg {
+    display: inline-block;
+    font-size: 1em;
+}
+#tm-topMsg .msg > .multiple,
+#tm-topMsg .msg > .single {
+    width: 100%;
+    display: inline-block;
+}
+.upl-selBtnWr,
+.upl-topBtnWr,
+#uploaded-variation-img .addPicBtn {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+}
+.mainWrap .picfee {
+    display: none;
+}
+.mainWrap .picfee {
+    margin-left: 4px;
+}
+.picfee .freeCount,
+.picfee .feeamt {
+    font-weight: 500;
+}
+.picfee .freeCount,
+.picfee .feeamt {
+    font-weight: 500;
+}
+.copyfrom {
+    color: #555;
+    margin-left: 7px;
+    font-weight: normal;
+    float: right;
+}
+#tm-topMsg .copyfrom a {
+    color: #0654ba;
+    font-size: 13px;
+    border: none;
+}
+.actBar.top .msg a {
+    color: #0654ba;
+    border: none;
+}
+.actBar a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+.copyfrom span,
+.copyfrom .copyWebLink2 {
+    margin-left: 7px;
+}
+@media (min-width: 1200px) {
+    .row-fluid:after,
+    .row-fluid:before {
+        display: table;
+        content: "";
+    }
+}
+@media (min-width: 1200px) {
+    .row-fluid:after {
+        clear: both;
+    }
+
+    .row-fluid:after,
+    .row-fluid:before {
+        display: table;
+        content: "";
+    }
+}
+.row-fluid:after {
+    clear: both;
+}
+.row-fluid:after,
+.row-fluid:before {
+    display: table;
+    content: "";
+}
+.workspaceWrap-bg {
+    background: #fff;
+    position: relative;
+}
+.workspaceWrap,
+.win-524 .workspaceWrap {
+    margin: 0;
+    position: relative;
+    float: left;
+    border: 1px solid #ddd;
+    width: 402px;
+    transition: width 0.5s ease 0s;
+    border-width: 0 1px;
+}
+#wk-workSpace {
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: "";
+}
+.workspaceWrap,
+.win-524 .workspaceWrap {
+    margin: 0;
+    position: relative;
+    float: left;
+    border: 1px solid #ddd;
+    width: 402px;
+    transition: width 0.5s ease 0s;
+    border-width: 1px 1px 0;
+}
+#wk-workSpace {
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+#up-fileUploadPnl {
+    height: 423px;
+}
+#up-fileUploadPnl {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+.mainWrap i.ph {
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+}
+.mainWrap span.wrp {
+    display: inline-block;
+    position: initial;
+    vertical-align: middle;
+    width: 90%;
+}
+.upl-selBtnWr,
+.upl-topBtnWr,
+#uploaded-variation-img .addPicBtn {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+}
+.upl-fileInp {
+    font-size: 1000%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+}
+.addPhotosMsgPnl {
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+}
+.addPhotosMsgPnl .addUptoMsg {
+    display: none;
+}
+.addPhotosMsgPnl * {
+    font-size: 12px;
+}
+.addPhotosMsgPnl * {
+    font-size: 12px;
+}
+.addPhotosMsgPnl .initialAddMsg {
+    display: none;
+}
+.addPhotosMsgPnl * {
+    font-size: 12px;
+}
+.addPhotosMsgPnl * {
+    font-size: 12px;
+}
+.mainWrap .picfee {
+    display: none;
+}
+.mainWrap .picfee {
+    margin-left: 4px;
+}
+.addPhotosMsgPnl * {
+    font-size: 12px;
+}
+
+/* ============================ PHOTO LIST =============================== */
+.thumbsWrap {
+    margin: 0 0 0 402px;
+    clear: none;
+    padding-top: 0;
+    position: relative;
+    border-top: 1px solid #ddd;
+}
+.thumbsWrap .dz-preview .dz-error-mark {
+    display: block !important;
+    /* opacity: 0 !important; */
+}
+.thumbsWrap .dz-preview .dz-error-mark,
+.thumbsWrap .dz-preview .dz-success-mark {
+    position: absolute;
+    display: none;
+    left: 30px;
+    top: 30px;
+    width: 54px;
+    height: 58px;
+    left: 50%;
+    margin-left: -27px;
+}
+.thumbsWrap .dz-preview .dz-error-mark {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    left: 65px;
+    top: 33px;
+    color: #ee162d;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: -268px -123px;
+}
+
+#tg-thumbsMask {
+    position: relative;
+    display: block !important;
+    max-height: 424px;
+    overflow: hidden;
+    position: relative;
+    max-width: 350px;
+    background: #fff;
+}
+#tg-thumbsMask ul {
+    transition: margin-top 0.75s ease 0s;
+}
+#uploaded-variation-img {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    left: 0;
+    margin-top: 0px;
+}
+#uploaded-variation-img li {
+    height: 106px;
+    width: 112px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block !important;
+    border-width: 0 1px 1px 0;
+    vertical-align: middle;
+    background: #fff;
+}
+.thumbsWrap .tg-li {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#uploaded-variation-img li:first-child .addPicBtn {
+    display: inline-block;
+}
+#uploaded-variation-img .addPicBtn {
+    position: relative;
+    top: 1px;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    cursor: pointer;
+    text-align: center;
+    display: none;
+    z-index: 10;
+    color: #0654ba;
+}
+.upl-selBtnWr,
+.upl-topBtnWr,
+#uploaded-variation-img .addPicBtn {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    position: initial;
+    vertical-align: middle;
+}
+#uploaded-variation-img .addPicBtn i {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    /* background: url(https://ir.ebaystatic.com/rs/v/nrzkkzqriy4mtno1tk5ziida5ix.png)
+        no-repeat -86.5px -14px / 215px auto; */
+    margin: 25px auto 0 auto;
+}
+#uploaded-variation-img .addPicBtn b {
+    margin: 8px auto 0 auto;
+}
+#uploaded-variation-img .addPicBG177tn b {
+    display: block;
+    position: relative;
+    font-weight: normal;
+    font-size: 13px;
+    white-space: normal;
+}
+.upl-fileInp {
+    /* font-size: 10000%; */
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+}
+#uploaded-variation-img li .picIcon {
+    position: relative;
+    top: 0;
+    margin: auto;
+    z-index: 0;
+    /* background: url(https://ir.ebaystatic.com/rs/v/nrzkkzqriy4mtno1tk5ziida5ix.png)
+        no-repeat -87px -63px; */
+    width: 100%;
+    height: 100%;
+}
+
+.notify-alert {
+    z-index: 1000031 !important;
+}

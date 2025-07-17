@@ -1,0 +1,232 @@
+@media only screen and (max-width: 1200px) {
+    .pattern {
+        display: block !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .mobile-menu-new {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-banner-image {
+        display: none;
+    }
+    .desktop-banner-image {
+        display: block;
+    }
+    .emergency-button {
+        float: right;
+    }
+    .sidebar-search {
+        margin-right: -98px;
+        z-index: 1000;
+        position: relative;
+    }
+    .call-left-button {
+        width: 46%;
+        float: right;
+    }
+    .call-right-button {
+        width: 46%;
+        float: left;
+    }
+
+    .footer-d-flex {
+        display: flex;
+    }
+
+    .member-sign-up {
+        width: 638px;
+    }
+
+    .testimonial-section .link-testimonial-inner{
+        padding: 35px 150px 45px 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-banner-image {
+        display: block;
+    }
+    .desktop-banner-image {
+        display: none;
+    }
+    .top-icon,
+    .header-top .info .top-nav-bar {
+        display: none;
+    }
+    .feature-block-one .inner-box .pattern .pattern-2 {
+        opacity: 1;
+    }
+    .feature-block-one .inner-box .pattern .pattern-1 {
+        left: 0px;
+        opacity: 1;
+    }
+    .feature-block-one .inner-box {
+        box-shadow: 0 20px 30px #cee4e2;
+        text-align: center;
+    }
+    .user-guide-content-block-1 .icon {
+        display: none;
+    }
+    .process-style-two .sec-title .process-title {
+        font-size: 24px !important;
+    }
+    .clinic-details-content .tabs-box .tab-btn-box .tab-btns li {
+        margin-left: 12px;
+    }
+    .image-about {
+        display: none;
+    }
+    .testimonial-mobile .bg-layer {
+        display: none;
+    }
+    .sidebar-search {
+        margin-bottom: 8px;
+    }
+    .custom-popup {
+        padding: 10px;
+    }
+
+    .popup-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .popup-header {
+        margin-bottom: 10px;
+    }
+
+    .popup-title {
+        font-size: 20px;
+    }
+
+    .popup-description {
+        font-size: 14px;
+    }
+
+    .popup-actions {
+        flex-direction: column;
+    }
+
+    .popup-actions .theme-btn-one,
+    .popup-actions .emergency-button {
+        margin: 10px;
+    }
+
+    .imagination_boxed:hover .btn-box {
+        bottom: 20px;
+    }
+
+    .custom-popup {
+        top: 0;
+    }
+
+    .call-button {
+        padding: 8px 5px !important;
+        margin-top: 0px !important;
+        font-size: 14px;
+    }
+    .whatsapp-button {
+        font-size: 14px;
+        padding: 8px 5px !important;
+        margin-top: 0px !important;
+    }
+
+    .emergency-button {
+        padding: 17px 40px;
+        margin-top: 25px;
+    }
+
+    .visit-button {
+        width: 100%;
+    }
+
+    .product-info-block .product-info .name {
+        margin-top: 15px;
+    }
+
+    .btn-buy,
+    .btn-add-to-cart {
+        padding: 8px 25px !important;
+        font-size: 14px !important;
+    }
+
+    .search-doctors-two {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
+
+    .social-links-footer {
+        padding: 25px 0px 0px;
+    }
+    .social-links-header {
+        padding: 20px 0px 0px;
+    }
+
+    .my-account-section {
+        padding: 50px 0px;
+    }
+
+    .my-account-section .content-box .title-box h3 {
+        font-size: 22px;
+    }
+    .my-account-section .content-box .title-box {
+        padding: 22px 30px 26px 30px;
+    }
+    .my-account-section .content-box .inner {
+        padding: 22px 30px 26px 30px;
+    }
+
+    .continue-button {
+        font-size: 12px;
+        padding: 0 6px 0 7px;
+    }
+
+    .customer-sign-up {
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 12px;
+    }
+    .imagination_boxed h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .popup-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 11px;
+    }
+    .imagination_boxed h3 {
+        font-size: 13px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imagination_boxed .btn-box .enquire-btn {
+        padding: 12px 20px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .imagination_boxed .btn-box .enquire-btn {
+        font-size: 12px;
+    }
+    .imagination_boxed .h3-tag p {
+        font-size: 9px;
+    }
+}

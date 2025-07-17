@@ -1,5 +1,6 @@
 <?php
 
+use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
 
 return [
@@ -51,19 +52,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Lowercase Usernames
-    |--------------------------------------------------------------------------
-    |
-    | This value defines whether usernames should be lowercased before saving
-    | them in the database, as some database system string fields are case
-    | sensitive. You may disable this for your application if necessary.
-    |
-    */
-
-    'lowercase_usernames' => true,
-
-    /*
-    |--------------------------------------------------------------------------
     | Home Path
     |--------------------------------------------------------------------------
     |
@@ -73,7 +61,39 @@ return [
     |
     */
 
-    'home' => '/dashboard',
+    'home' => RouteServiceProvider::HOME,
+
+   /*
+    |--------------------------------------------------------------------------
+    | Super Admin Dashboard Path
+    |--------------------------------------------------------------------------
+    */
+
+    'super-admin' => RouteServiceProvider::REGISTERED_REDIRECT_SUPER_ADMIN,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Admin Dashboard Path
+    |--------------------------------------------------------------------------
+    */
+    'admin' => RouteServiceProvider::REGISTERED_REDIRECT_ADMIN,
+
+    /*
+    |--------------------------------------------------------------------------
+    | member Dashboard Path
+    |--------------------------------------------------------------------------
+    */
+    'service-provider' => RouteServiceProvider::REGISTERED_REDIRECT_SERVICE_PROVIDER,
+    /*
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | customer Dashboard Path
+    |--------------------------------------------------------------------------
+    */
+    'customer' => RouteServiceProvider::REGISTERED_REDIRECT_CUSTOMER,
+    /*
 
     /*
     |--------------------------------------------------------------------------

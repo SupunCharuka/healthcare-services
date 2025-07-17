@@ -1,0 +1,15 @@
+.iti {
+    position: relative;
+    display: block;
+}
+
+.iti--allow-dropdown input,
+.iti--allow-dropdown input[type="text"],
+.iti--allow-dropdown input[type="tel"],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type="text"],
+.iti--separate-dial-code input[type="tel"] {
+    padding-right: 6px !important;
+    padding-left: 86px !important;
+    margin-left: 0;
+}

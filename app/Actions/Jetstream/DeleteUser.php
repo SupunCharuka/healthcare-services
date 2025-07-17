@@ -14,6 +14,10 @@ class DeleteUser implements DeletesUsers
     {
         $user->deleteProfilePhoto();
         $user->tokens->each->delete();
+        $user->update(['fcm_token' => null]);
+        $user->inquiries()->where('member_status', 'pending')->update(['member_status' => 'rejected']);
+        $user->services()->update(['status' => 'rejected']);
+        $user->tickets()->update(['status' => 'close']);
         $user->delete();
     }
 }

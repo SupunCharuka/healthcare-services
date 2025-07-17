@@ -1,0 +1,319 @@
+@media only screen and (max-width: 1449px) {
+    .feature-block-two .inner-box .icon-box {
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 1464px) and (min-width: 1357px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 13px;
+    }
+    .imagination_boxed h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 1356px) and (min-width: 1261px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 10px;
+    }
+    .imagination_boxed h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 1260px) and (min-width: 1057px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 10px;
+    }
+    .imagination_boxed h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 1056px) and (min-width: 993px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 8px;
+    }
+    .imagination_boxed h3 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+@media only screen and (max-width: 1524px) and (min-width: 1484px) {
+    .right-panel .outer-container {
+        max-width: 1028px;
+    }
+}
+
+@media only screen and (max-width: 1485px) and (min-width: 1462px) {
+    .right-panel .outer-container {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1463px) and (min-width: 1355px) {
+    .right-panel .outer-container {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1356px) and (min-width: 1260px) {
+    .right-panel .outer-container {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1261px) and (min-width: 1154px) {
+    .right-panel .outer-container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 1155px) and (min-width: 1055px) {
+    .right-panel .outer-container {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1056px) and (min-width: 973px) {
+    .right-panel .outer-container {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 972px) {
+    .patient-dashboard {
+        display: block;
+    }
+
+    .right-panel .content-container {
+        margin-left: 0px;
+    }
+
+    .right-panel {
+        margin-left: auto !important;
+    }
+
+    .left-panel {
+        position: initial;
+        display: none;
+    }
+
+    .right-panel .outer-container {
+        max-width: 1390px;
+    }
+
+    .main-header.style-three .header-lower .outer-box {
+        padding-bottom: 10px !important;
+    }
+
+    .main-header.style-three .header-lower .outer-box .left-column {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 972px) and (min-width: 769px) {
+    .main-header.style-three .header-lower .outer-box {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile-box {
+        width: 336px;
+    }
+    .main-header.style-three .header-lower .outer-box {
+        display: flex !important;
+    }
+    .main-header.style-three .header-lower .outer-box {
+        padding-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-block-two .inner-box .pattern {
+        display: none !important;
+    }
+
+    .feature-block-two .inner-box {
+        padding: 10px 0px 17px 5px !important;
+        background: #ffcdc8;
+    }
+    .imagination_boxed .h3-tag p {
+      color: #3b3b3b;
+    }
+
+    .feature-block-two .inner-box .icon-box {
+        width: 60px;
+        height: 60px;
+        left: 0px;
+        top: 5px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    .right-panel .feature-content {
+        margin-bottom: 10px;
+    }
+
+    .clinic-block-one .content-box .name-box .name h2 a {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .clinic-block-one .content-box .name-box .name h2 {
+        line-height: 22px;
+    }
+    .appointment-section h3 {
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    .appointment-section .title-box {
+        padding: 20px 40px 20px 40px;
+    }
+    .appointment-section .title-box h3 {
+        font-size: 24px;
+    }
+    .thank-you .thank-you-img {
+        width: 110px !important;
+    }
+    .package-delivery {
+        width: 95% !important;
+    }
+    .payment-information.box {
+        width: 95% !important;
+    }
+    .package-delivery .invoice-details h4 {
+        font-size: 17px !important;
+    }
+    .pay-now {
+        justify-content: center;
+    }
+    .mobile-menu .mobile-display {
+        display: none !important;
+    }
+    .profile-box {
+        border-radius: 0px;
+    }
+    .left-panel {
+        display: none;
+    }
+
+    .popup-actions {
+        flex-direction: column;
+    }
+
+    .popup-actions .theme-btn-one,
+    .popup-actions .emergency-button {
+        margin: 10px;
+    }
+
+    .emergency-button {
+        padding: 17px 40px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 13px;
+    }
+    .imagination_boxed h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 526px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 10px;
+    }
+    .imagination_boxed h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .imagination_boxed .btn-box .enquire-btn {
+        padding: 10px 16px;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 9px;
+    }
+    .imagination_boxed h3 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .popup-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .imagination_boxed .h3-tag p {
+        font-size: 9px;
+    }
+    .imagination_boxed h3 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .imagination_boxed .btn-box .enquire-btn {
+        padding: 8px 18px;
+        line-height: 18px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .main-header.style-three .menu-area .mobile-nav-toggler {
+        margin-top: -8px;
+    }
+    /* .clinic-block-one .inner-box .image-box {
+        width: 100%;
+        height: 100%;
+    } */
+
+    .imagination_boxed .h3-tag p {
+        font-size: 7px;
+    }
+
+    .imagination_boxed h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .feature-block-two .inner-box .icon-box {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .imagination_boxed .btn-box .enquire-btn {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    .theme-btn-one i {
+        font-size: 11px;
+    }
+    .popup-actions .theme-btn-one,
+    .popup-actions .emergency-button {
+        padding: 17px 32px;
+    }
+    .popup-title {
+        font-size: 13px;
+    }
+}

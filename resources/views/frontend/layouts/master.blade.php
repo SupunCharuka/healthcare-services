@@ -1,57 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>@yield('title') - HealthCare</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!-- Favicons -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-
-
-    <!-- Styles -->
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <title>healthcare.lk | @yield('title') </title>
+    <!-- Fav Icon -->
+    <link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon">
     @include('frontend.layouts.styles')
+    <!-- Styles -->
     @livewireStyles
 </head>
 
-<body>
-    <div class="layout-theme animated-css" data-header="sticky" data-header-top="200">
+<body class="cnt-home" x-data="{ overflow_y: true }" :class="[!overflow_y ? 'overflow-hidden' : '']">
 
-        <!-- Loader Landing Page -->
-        <div id="ip-container" class="ip-container">
-            <!-- initial header -->
-            <header class="ip-header">
-                <div class="ip-loader">
+    <div class="boxed_wrapper">
 
-                    <svg class="ip-inner" width="60px" height="60px" viewbox="0 0 80 80">
-                        <path class="ip-loader-circlebg"
-                            d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z">
-                        </path>
-                        <path id="ip-loader-circle" class="ip-loader-circle"
-                            d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z">
-                        </path>
-                    </svg>
-                </div>
-            </header>
-        </div>
-        <!-- Loader end -->
+        <!-- preloader -->
+        <div class="preloader"></div>
+        <!-- preloader -->
+
+        <!-- Page Heading -->
         @include('frontend.layouts.header')
 
         @yield('content')
 
+       
+        <!-- Page footer -->
         @include('frontend.layouts.footer')
-    </div>
 
-    <span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span>
+        <!--Scroll to top-->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fa fa-arrow-up"></span>
+        </button>
+
+
+    </div>
     @include('frontend.layouts.scripts')
     @livewireScripts
-
 </body>
 
 </html>

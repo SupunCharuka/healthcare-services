@@ -1,26 +1,25 @@
-  <!--HOME SLIDER-->
-  <script src="{{ asset('assets/frontend/plugins/iview/js/iview.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js') }}"></script>
+ <!-- jequery plugins -->
+ <script src="{{ asset('assets/frontend/js/jquery.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/popper.min.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/owl.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/wow.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/validation.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/jquery.fancybox.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/appear.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/scrollbar.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/tilt.jquery.js') }}"></script>
 
-  <!-- SCRIPTS -->
-  <script type="text/javascript" src="{{ asset('assets/frontend/plugins/isotope/jquery.isotope.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/js/waypoints.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/bxslider/jquery.bxslider.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/prettyphoto/js/jquery.prettyPhoto.js') }}"></script>
-  <script src="{{ asset('assets/frontend/ajax/libs/jquery-easing/1.3/jquery.easing.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/datetimepicker/jquery.datetimepicker.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/jelect/jquery.jelect.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/nouislider/jquery.nouislider.all.min.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/pagenav.js') }}"></script>
+ <script src="{{ asset('assets/frontend/js/product-filter.js') }}"></script>
 
-  <!-- Loader -->
-  <script src="{{ asset('assets/frontend/plugins/loader/js/classie.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/loader/js/pathLoader.js') }}"></script>
-  <script src="{{ asset('assets/frontend/plugins/loader/js/main.js') }}"></script>
-  <script src="{{ asset('assets/frontend/js/classie.js') }}"></script>
-  <!--THEME-->
-  <script src="{{ asset('assets/frontend/js/cssua.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/js/wow.min.js') }}"></script>
-  <script src="{{ asset('assets/frontend/js/custom.js') }}"></script>
+ <!-- main-js -->
+ <script src="{{ asset('assets/frontend/js/script.js') }}"></script>
+ 
+ <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
+ </script>
+ <script src="{{ asset('js/frontend/home/update-language.js') }}"></script>
 
-  @yield('scripts')
-  @stack('scripts')
+
+ @yield('scripts')
+ @stack('scripts')

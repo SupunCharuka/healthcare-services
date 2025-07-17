@@ -1,0 +1,386 @@
+.thank-you {
+    padding: 13px 0 12px;
+}
+
+.thank-you-heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4caf50;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-bottom: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.thank-you-payment-type-offline .thank-you-heading {
+    color: #ff9800;
+}
+
+.thank-you-icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+.thank-you-icon .svgfont {
+    width: 32px;
+    height: 32px;
+}
+
+.thank-you-secondary-container {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.thank-you-secondary-heading {
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.thank-you-order-number-container {
+    display: inline;
+}
+
+.thank-you-order-number {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f0f0f;
+    line-height: 24px;
+    margin-left: 5px;
+    background: #beeffd;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.thank-you-track-order-link {
+    font-size: 20px;
+    color: #1a9cb7;
+    margin-left: 17px;
+    text-transform: uppercase;
+}
+
+.thank-you-instruction {
+    font-size: 14px;
+    color: #757575;
+    line-height: 20px;
+}
+
+.thank-you-instruction-link {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #212121;
+}
+
+.thank-you-heading .thank-you {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    cursor: context-menu;
+}
+
+.thank-you-heading .thank-you {
+    --s: 0.1em;
+    /* the thickness of the line */
+    --c: #2c4bff;
+    /* the color */
+
+    color: #0000;
+    padding-bottom: var(--s);
+    background:
+        linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+        linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.5s;
+}
+
+.thank-you-heading .thank-you {
+    --_p: 100%
+}
+
+.payment-amount.wrapper {
+    margin: 12px auto;
+}
+
+.payment-amount.container {
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.payment-amount.title {
+    font-size: 14px;
+    color: #212121;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+.payment-amount.amount {
+    font-size: 28px;
+    color: #f57224;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.package-delivery {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.package-delivery span {
+
+    color: #212121;
+}
+
+.payment-information.wrapper {
+    margin: 16px auto;
+}
+
+.payment-information.box {
+    width: 60%;
+    margin: auto;
+}
+
+.payment-information.item {
+    border: 1px solid #e0e0e0;
+    padding: 20px 18px;
+    margin-bottom: -1px;
+}
+
+.payment-information.icon {
+    float: left;
+    font-size: 30px;
+    width: 30px;
+    margin-right: 5px;
+    color: #0d9eae;
+}
+
+.payment-information .email-icon {
+    top: -8px;
+    position: relative;
+    color: blue;
+    font-size: 22px;
+}
+
+.payment-information.content {
+    display: table;
+    height: 100%;
+}
+
+.payment-information.text-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.payment-information.text-line {
+    font-size: 14px;
+    color: #0044ff;
+    line-height: 18px;
+}
+
+.payment-information.strong-text {
+    font-weight: 500;
+}
+
+.payment-information .email-icon-admin {
+    top: -16px;
+    position: relative;
+    color: blue;
+    font-size: 22px;
+}
+
+.invoice-details {
+    border: 1px solid #e0e0e0;
+    padding: 20px 18px;
+    margin-bottom: -1px;
+    background-color: rgb(241 244 255 / 40%);
+    border-radius: 8px;
+
+
+}
+
+.pay-now-delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pay-now {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    padding: 10px 20px 10px 36px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.pay-now:hover {
+    background: #c4e201;
+}
+
+.pay-now>svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+}
+
+.pay-now:hover svg {
+    transform: translateX(5px);
+}
+
+.pay-now:active {
+    transform: scale(0.95);
+}
+
+
+/* Modal Styles */
+.modal {
+    animation: modalSlide 0.3s ease-out;
+}
+
+@keyframes modalSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #4466f2;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-header .close {
+    color: red;
+    opacity: 1;
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-text {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.custom-file-label::after {
+    content: "Browse";
+}
+
+.modal-footer {
+    justify-content: space-between;
+    border-top: none;
+    padding-top: 20px;
+}
+
+/* Button Styles */
+.btn-secondary {
+    background-color: #f72929;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #4466f2;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #3355cc;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .thank-you-heading .thank-you {
+        font-size: 30px;
+    }
+
+    .thank-you .thank-you-img {
+        width: 65px;
+    }
+
+    .thank-you-secondary-heading {
+        font-size: 12px;
+    }
+
+    .thank-you-order-number {
+        font-size: 10px;
+    }
+
+    .payment-amount.amount {
+        font-size: 24px;
+    }
+
+    .payment-information.text-line {
+        font-size: 10px;
+    }
+
+    .invoice-details .row {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 10px;
+
+    }
+
+    .invoice-details .col-md-12 {
+        margin-bottom: 10px;
+    }
+
+    .payment-information.item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .payment-information .email-icon {
+
+        font-size: 17px;
+    }
+
+    .pay-now {
+        padding: 4px 15px;
+    }
+}

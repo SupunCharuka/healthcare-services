@@ -1,0 +1,19 @@
+#area div p {
+  display: block;
+  width: 300px;
+}
+#area div p span {
+  display: block;
+  padding: 2px 0;
+  width: 0;
+  background: #193;
+  text-align: center;
+}
+#area b,
+#area img {
+  display: block;
+}
+#area img {
+  margin: 10px 0;
+  width: 300px;
+}

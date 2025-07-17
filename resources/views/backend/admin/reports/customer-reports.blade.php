@@ -1,0 +1,89 @@
+@extends('backend.layouts.master')
+@section('title', 'Reports | Customers')
+@section('styles')
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/datatables/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/datatables/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/datatables/responsive.bootstrap4.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/datatables/customize-datatables.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/css/date-picker.css') }}">
+@endsection
+@section('breadcrumb-title', 'Customers')
+
+
+@section('breadcrumb-items')
+    <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
+    <li class="breadcrumb-item active">Customers</li>
+@endsection
+@section('content')
+    <div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card shadow">
+
+                    <div class="card-body">
+
+                        <div class="table-responsive date-filter">
+                            <div id="date-range-filter">
+                                <label for="start-date" class="sr-only">Start Date:</label>
+                                <input type="text" id="start-date" class="date-picker datepicker-here digits"
+                                    placeholder="Start Date" data-language="en" autocomplete="off">
+                                <label for="end-date" class="sr-only">End Date:</label>
+                                <input type="text" id="end-date" class="date-picker datepicker-here digits"
+                                    placeholder="End Date" data-language="en" autocomplete="off">
+                                <button id="apply-filter" class="gradient-button">Apply Filter</button>
+
+                            </div>
+
+                            <table class="table table-striped table-bordered dt-responsive nowrap display"
+                                id="customers" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Mobile Number</th>
+                                        <th>Email</th>
+                                        <th>Created at</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($customers as $key => $customer)
+                                        <tr id="customer-record-{{ $customer->id }}">
+                                            <td>{{ $customer->id }}</td>
+                                            <td>{{ $customer->name }}</td>
+                                            <td>{{ $customer->phone }}</td>
+                                            <td>{{ $customer->email }}</td>
+                                            <td>{{ $customer->created_at->format('m/d/Y')}}</td>
+
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Mobile Number</th>
+                                        <th>Email</th>
+                                        <th>Created at</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+@section('scripts')
+
+    <script src="{{ asset('assets/backend/js/datatable/datatables/jquery.dataTables.1.10.24.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datatable/datatables/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datatable/datatables/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datatable/datatables/responsive.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.en.js') }}"></script>
+    <script src="{{ asset('assets/backend/js/datepicker/date-picker/datepicker.custom.js') }}"></script>
+    <script src="{{ asset('js/admin/reports/customer.js') }}"></script>
+
+@endsection

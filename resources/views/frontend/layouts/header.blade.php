@@ -1,96 +1,180 @@
-<div class="top-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 text-left">
-                <ul class="social-links">
-                    <li><a target="_blank" href="https://www.facebook.com/"><i
-                                class="social_icons social_facebook_square"></i></a></li>
-                    <li class=""><a target="_blank" href="https://twitter.com/"><i
-                                class="social_icons social_twitter_square"></i></a></li>
-                    <li><a target="_blank" href="https://www.google.com/"><i
-                                class="social_icons social_googleplus_square"></i></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/"><i
-                                class="social_icons social_linkedin_square"></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/"><i
-                                class="social_icons social_youtube_square"></i></a></li>
-                    <li class="li-last"><a target="_blank" href="https://instagram.com/"><i
-                                class="social_icons social_instagram_square"></i></a></li>
-                </ul>
-            </div>
-            <div class="top-header__links col-sm-7">
-               
-              <a href="tel:+94112345678"><i class="icon fa fa-phone"></i> +94 112 345 678</a>
-              <a href="mailto:info@example.com"><i class="icon fa fa-envelope"></i> info@example.com</a>
-            </div>
-        </div>
-    </div>
-</div>
+       <!-- main header -->
+       <header class="main-header style-two">
+           <div class="header-top">
+               <!-- header-top -->
+               <div class="auto-container">
+                   <div class="top-inner">
+                       <div class="row">
 
-<!-- HEADER -->
-<div class="header">
-    {{-- <div class="container">
-        <div class="header-inner">
-            <div class="row">
-                <div class="col-md-4 col-xs-12"> <a href="index.html" class="logo"> <img class="logo__img"
-                            src="img/logo.png" height="50" width="294" alt="Logo"> </a> </div>
-                <div class="col-md-8 col-xs-12">
-                    <div class="header-block">
-                        <span class="header-label">
-                            <i class="icon-header icon-call-in color_primary"></i>
-                            <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234
-                                        56789</strong></a>
-                            </span>
-                        </span>
-                        <span class="header-label">
-                            <i class="icon-header icon-envelope-open color_primary"></i>
-                            <span class="helper"> Email us
-                                <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a>
-                            </span>
-                        </span>
-                        <a class="top-cart" href="/"> <i class="icon icon-basket bg-color_primary"></i> Cart
-                            Items: 2 <span class="top-cart__price color_second">$250.00</span></a>
-                    </div>
-                    <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
-                        <input type="text" value="" id="search-mobile" name="s">
-                        <button type="submit"><i class="icon fa fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- end header-inner-->
-    </div> --}}
-    <!-- end container-->
+                           <div class="col-lg-6  ">
 
-    <div class="top-nav ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12  col-xs-12">
-                    <div class="navbar yamm ">
-                        <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
-                            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
-                                class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span
-                                    class="icon-bar"></span></button>
-                            <a href="#" class="navbar-brand">Menu</a>
-                        </div>
-                        <div id="navbar-collapse-1" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="{{ route('/') }}">Home </a></li>
-                                <li><a href="{{ route('services') }}">SERVICES </a></li>
-                                <li><a href="{{ route('shop') }}">Shop </a></li>
-                                <li><a href="{{ route('about') }}">ABOUT </a></li>
-                                <li><a href="{{ route('contact') }}">CONTACT </a> </li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="login.html"> Login</a></li>
-                                <li><a href="register.html"> Register</a></li>
-                            </ul>
+                               <ul class="info clearfix top-icon mt-1">
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end top-nav -->
-</div>
-<!-- HEADER END -->
+                                   <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                   <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                                   <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                   <li><a href=""><i class=" fab fa-youtube"></i></a></li>
+                               </ul>
+                           </div>
+
+                           <div class="col-lg-6  ">
+                               <div class="top-right pull-right">
+                                   <ul class="info clearfix top">
+                                       <li class="top-nav-bar">
+                                           <i class="fas fa-phone  top1"></i> &nbsp;<a href="tel:+9471 234 5678">+9471
+                                               234 5678</a>
+                                       </li>
+                                       <li class="top-nav-bar">
+                                           <i class="fas fa-envelope top1 ">
+                                           </i> &nbsp;<a href="mailto:support@healthcare.lk">support@healthcare.lk</a>
+                                       </li>
+                                       {{-- <li>
+                                           <div class="d-flex">
+                                               <!-- Code provided by Google -->
+                                               <div id="google_translate_element"></div>
+                                           </div>
+                                       </li> --}}
+
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- header-lower -->
+           <div class="header-lower" style="background: white">
+               <div class="auto-container">
+                   <div class="outer-box">
+                       <div class="logo-box">
+                           <figure class="logo"><a href="{{ url('') }}"><img src="{{ asset('img/logo3.png') }}"
+                                       alt=""></a>
+                           </figure>
+                       </div>
+                       <div class="menu-area">
+                           <!--Mobile Navigation Toggler-->
+                           <div class="mobile-nav-toggler">
+                               <i class="icon-bar"></i>
+                               <i class="icon-bar"></i>
+                               <i class="icon-bar"></i>
+                           </div>
+                           <nav class="main-menu navbar-expand-md navbar-light">
+                               <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                   <ul class="navigation clearfix">
+                                       <li class="{{ Route::currentRouteName() === '/' ? 'current' : '' }}"><a
+                                               href="{{ url('') }}">Home</a>
+                                       </li>
+                                       <li
+                                           class="{{ Route::currentRouteName() === 'public.serviceCategory' ? 'current' : '' }}">
+                                           <a href="{{ route('public.serviceCategory') }}">Services</a>
+                                       </li>
+                                       <li
+                                           class="{{ Route::currentRouteName() === 'public.product' ? 'current' : '' }}">
+                                           <a href="{{ route('public.product') }}">Healthcare Products</a>
+                                       </li>
+                                       <li
+                                           class="{{ Route::currentRouteName() === 'public.userGuide' ? 'current' : '' }}">
+                                           <a href="{{ route('public.userGuide') }}">User Guide</a>
+                                       </li>
+                                       <li
+                                           class="{{ Route::currentRouteName() === 'public.aboutUs' ? 'current' : '' }}">
+                                           <a href="{{ route('public.aboutUs') }}">About Us</a>
+                                       </li>
+                                       <div class="mobile-menu-new">
+                                           @guest
+                                               <li class=""><a href="{{ route('login') }}">My Account</a></li>
+                                           @endguest
+                                           @auth
+                                               <li class=""><a
+                                                       href="{{ route(authUserFolder() . '.dashboard') }}">Dashboard</a>
+                                               </li>
+                                           @endauth
+                                       </div>
+                                   </ul>
+                               </div>
+                           </nav>
+                       </div>
+                       @guest
+                           <div class="btn-box">
+                               <a href="{{ route('login') }}" class="theme-btn-one">
+                                   <i class="fas fa-user"></i>My Account
+                               </a>
+                           </div>
+                       @endguest
+
+                       @auth
+                           <div class="btn-box">
+                               <a href="{{ route(authUserFolder() . '.dashboard') }}" class="theme-btn-one">
+                                   <i class="fas fa-tv"></i>Dashboard
+                               </a>
+                           </div>
+                       @endauth
+                   </div>
+               </div>
+           </div>
+           <!--sticky Header-->
+           <div class="sticky-header">
+               <div class="auto-container">
+                   <div class="outer-box">
+                       <div class="logo-box">
+                           <figure class="logo"><a href="{{ url('') }}"><img
+                                       src="{{ asset('img/logo3.png') }}" alt=""></a>
+                           </figure>
+                       </div>
+                       <div class="menu-area">
+                           <nav class="main-menu clearfix">
+                               <!--Keep This Empty / Menu will come through Javascript-->
+                           </nav>
+                       </div>
+                       @guest
+                           <div class="btn-box">
+                               <a href="{{ route('login') }}" class="theme-btn-one">
+                                   <i class="fas fa-user"></i>My Account
+                               </a>
+                           </div>
+                       @endguest
+
+                       @auth
+                           <div class="btn-box">
+                               <a href="{{ route(authUserFolder() . '.dashboard') }}" class="theme-btn-one">
+                                   <i class="fas fa-tv"></i>Dashboard
+                               </a>
+                           </div>
+                       @endauth
+
+                   </div>
+               </div>
+           </div>
+       </header>
+       <!-- Mobile Menu -->
+       <div class="mobile-menu">
+           <div class="menu-backdrop"></div>
+           <div class="close-btn"><i class="fas fa-times"></i></div>
+           <nav class="menu-box">
+               <div class="nav-logo"><a href="{{ url('') }}"><img src="{{ asset('img/footer-logo.png') }}"
+                           alt="" title=""></a>
+               </div>
+               <div class="menu-outer">
+                   <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+               </div>
+               <div class="contact-info">
+                   <h4>Contact Info</h4>
+                   <ul>
+                       <li>Hirimbura Cross Road, Galle 80000</li>
+                       <li><a href="tel:+9470 305 8585">+9470 305 8585</a></li>
+                       <li><a href="mailto:support@healthcare.lk">support@healthcare.lk</a></li>
+                   </ul>
+               </div>
+               <div class="social-links">
+                   <ul class="clearfix">
+                       <li><a href=""><span class="fab fa-twitter"></span></a></li>
+                       <li><a href=""><span class="fab fa-facebook-square"></span></a></li>
+                       <li><a href=""><span class="fab fa-pinterest-p"></span></a></li>
+                       <li><a href=""><span class="fab fa-instagram"></span></a></li>
+                       <li><a href=""><span class="fab fa-youtube"></span></a></li>
+                   </ul>
+               </div>
+           </nav>
+       </div>
+       <!-- End Mobile Menu -->
+   

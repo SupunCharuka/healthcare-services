@@ -1,0 +1,620 @@
+.approve-btn {
+    width: 130px;
+    border: 1px solid #22af47;
+    color: #22af47;
+    opacity: 0.6;
+    border-radius: 50rem;
+}
+
+.reject-btn {
+    width: 130px;
+    border: 1px solid #ff5370;
+    color: #ff5370;
+    opacity: 0.6;
+    border-radius: 50rem;
+}
+
+.pending-btn {
+    width: 130px;
+    border: 1px solid #4e4e4e;
+    color: #4e4e4e;
+    opacity: 0.6;
+    border-radius: 50rem;
+}
+
+.inquiry-status .status {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #ebfbf3;
+    color: #39dc86;
+}
+
+.inquiry-status .cancel {
+    background: #f5e7e5;
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #fe5948;
+}
+
+.inquiry-status .pending {
+    background: #fff6e5;
+    color: #ffab01;
+}
+
+.single-comment-box .comment .rating {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.single-comment-box .comment .rating li {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #bbbbbb;
+}
+
+.rating .icon-Star.active {
+    color: #ffab01;
+}
+
+.single-comment-box .comment h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    color: #00224f;
+    position: relative;
+    font-family: "Jost", sans-serif;
+}
+
+.single-comment-box .comment .comment-time {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.single-comment-box .comment p {
+    margin-bottom: 22px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.single-comment-box .comment .comment-time i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.member-reviews {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form-control:focus {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #80bdff !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.table-responsive {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+/**=====================
+     04. Loader Livewire CSS Start
+==========================**/
+.loader-livewire {
+    height: 100%;
+    width: 100%;
+    display: block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1060;
+    top: 0;
+    left: 0;
+}
+
+.loader-livewire {
+    background-color: #ffffffa9;
+}
+
+.loader-livewire .loader {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    right: 0;
+    margin: 0 auto;
+}
+
+.loader-livewire .loader h4 {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.loader-livewire .loader h4 span {
+    font-size: 34px;
+    color: #ffc107;
+}
+
+/* Style for the status filter container */
+.status-filter {
+    margin-bottom: 10px;
+}
+
+.status-filter label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.status-filter select {
+    padding: 3px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.status-filter select:hover {
+    border-color: #666;
+}
+
+.status-filter select:focus {
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.status-filter select::-ms-expand {
+    display: none;
+}
+
+.status-filter select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.status-filter select option {
+    padding: 8px;
+}
+
+.health-profile-card {
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.health-profile-image img {
+    width: 100%;
+    max-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.health-profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+}
+
+.health-profile-date,
+.health-profile-id {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.health-profile-id {
+    margin-bottom: 0;
+}
+
+.health-profile-image a {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.health-profile-image img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.health-profile-image img:hover {
+    transform: scale(1.05);
+}
+
+.health-profile-image a img {
+    width: 50px;
+    height: 50px;
+}
+
+.payment-info,
+.comment-info,
+.file-info,
+.action-buttons {
+    margin-bottom: 10px;
+}
+
+.payment-info .font-weight-boldcol-md-6 {
+    color: #007bff;
+}
+
+.payment-info span,
+.comment-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+.file-info img {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.action-buttons .badge {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 30px;
+}
+
+.action-buttons .approve {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.action-buttons .reject {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.action-buttons .approve i,
+.action-buttons .reject i {
+    margin-right: 5px;
+}
+
+/* Styles for the service-availability container */
+.service-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.availability-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.availability-item {
+    width: 33.33%; /* Adjust the width as needed for your layout */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.availability-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.availability-button.highlighted {
+    background-color: #ff5722; /* Change to your desired highlighted color */
+}
+
+.availability-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.day-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.availability-info {
+    margin-top: 5px;
+}
+
+/* Add hover effect */
+.availability-button:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .availability-item {
+        width: 50%; /* Adjust for two columns on smaller screens */
+    }
+}
+
+.date-range-commission .datepicker-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.date-range-commission .datepicker-input {
+    padding: 6px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    transition: border-color 0.3s ease;
+}
+
+.date-range-commission .datepicker-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+}
+
+.date-range-commission .datepicker-input:hover {
+    border-color: #555;
+}
+
+#custom-notification .close {
+    color: red;
+    top: 9px !important;
+}
+
+#custom-notification {
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+#custom-notification .custom-notification-icon {
+    margin-right: 1px;
+}
+
+#custom-notification .custom-notification-icon i {
+    font-size: 16px;
+}
+
+#custom-notification .custom-notification-message {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 22px;
+}
+
+/* Custom link styles */
+.custom-link {
+    display: block;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-link:hover,
+.custom-link.link-with-education:hover,
+.custom-link.link-with-work-details:hover,
+.custom-link.link-without-education:hover,
+.custom-link.link-without-work-details:hover {
+    background-color: #e0e0e0;
+}
+
+.link-icon {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.link-icon i {
+    color: #007bff;
+}
+
+.link-text h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.link-text p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.custom-link.link-with-education,
+.custom-link.link-with-work-details {
+    background-color: #6fffb7;
+}
+
+.custom-link.link-without-education,
+.custom-link.link-without-work-details {
+    background-color: #ffd45f;
+}
+
+/* Add this CSS to style the service category cards */
+.service-category-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-category-image {
+    justify-content: center;
+    display: flex;
+}
+
+.service-category-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-category-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.service-category-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-category-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.service-category-caption {
+    font-size: 14px;
+    color: #777;
+    margin: 0 0 15px;
+}
+
+.enquire-button .theme-btn-one {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.enquire-button .theme-btn-one:hover {
+    background-color: #1e87d1;
+}
+
+.date-filter #date-range-filter {
+    background: linear-gradient(to bottom, #f3f4f8, #e0e2e7);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.date-filter .date-picker {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.date-filter #apply-filter {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.date-filter .calendar-icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.date-filter .date-picker:hover,
+.date-filter #apply-filter:hover {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+label[for="district-filter"] {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#district-filter {
+    width: 150px !important;
+    padding: 5px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+.date-filter .district {
+    float: inline-end;
+}
+
+#district-filter option {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+@media (max-width: 768px) {
+    .date-filter .date-picker {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .date-filter .district {
+        float: none;
+        margin-top: 15px;
+    }
+}

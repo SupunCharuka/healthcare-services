@@ -1,0 +1,15 @@
+{
+    "/js/app.js": "/js/app.js?id=1e52c7d327987d0bd0643d68dfce6b83",
+    "/css/app.css": "/css/app.css?id=28afeed636ecc337262198a82259fd3e",
+    "/css/app-jetstream.css": "/css/app-jetstream.css?id=35558a84aaea27b9ce24a66014d2bd26",
+    "/assets/backend/libs/tinymce/.npmignore": "/assets/backend/libs/tinymce/.npmignore?id=ddeebe528dc3628952447d691e9746b9",
+    "/assets/backend/libs/tinymce/bower.json": "/assets/backend/libs/tinymce/bower.json?id=505ad2d6409a1575617ac1b26716ace8",
+    "/assets/backend/libs/tinymce/CHANGELOG.md": "/assets/backend/libs/tinymce/CHANGELOG.md?id=63fe5fbbffce602bae47c5d71d31bb99",
+    "/assets/backend/libs/tinymce/composer.json": "/assets/backend/libs/tinymce/composer.json?id=c91be6ba4694295f3da19a0566df9aa2",
+    "/assets/backend/libs/tinymce/license.txt": "/assets/backend/libs/tinymce/license.txt?id=5f3d874e2822450a6077fe87dd8c9297",
+    "/assets/backend/libs/tinymce/package.json": "/assets/backend/libs/tinymce/package.json?id=021497d9b62177ce006ca7cac00336b8",
+    "/assets/backend/libs/tinymce/README.md": "/assets/backend/libs/tinymce/README.md?id=fb7bcf0f72726e09bfaaa17e8d8da1c3",
+    "/assets/backend/libs/tinymce/tinymce.d.ts": "/assets/backend/libs/tinymce/tinymce.d.ts?id=b1406a9d042dc59fc238ac0b2e171cef",
+    "/assets/backend/libs/tinymce/tinymce.js": "/assets/backend/libs/tinymce/tinymce.js?id=515ae8573411d695401ea9a5036251b9",
+    "/assets/backend/libs/tinymce/tinymce.min.js": "/assets/backend/libs/tinymce/tinymce.min.js?id=9ef85f18b3e94cce35226584f9811ee1"
+}
